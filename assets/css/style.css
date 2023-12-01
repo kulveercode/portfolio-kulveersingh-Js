@@ -474,7 +474,7 @@ body {
 
 .contact-card {
   background-color: var(--midnight-blue);
-  padding: 50px 25px;
+  padding: 20px 25px 25px 50px;
   border-radius: var(--radius-20);
 }
 
@@ -553,7 +553,10 @@ textarea.contact-input {
 .contact-item-link:not(address):is(:hover, :focus) { color: var(--white); }
 
 
-
+#msg {
+  color: #61b752;
+  display: block;
+}
 
 /* 
 /*-----------------------------------*\
